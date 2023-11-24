@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tutor's Point</title>
+<link rel="icon" type="image/x-icon" href="teach-icon.png">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="pulse.css">
+ <link rel="stylesheet" href="syte.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+        <a class="navbar-brand " href="Index.html"><img height="30px" width="30px" src="teach-icon.png" alt="y"/> Tutor's Point</a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto" style="margin-left: 5%;">
+            <li class="nav-item">
+              <a class="nav-link" href="Index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Index.html#contactUs">Contact Us</a>
+            </li>
+          </ul>
+          
+          <ul class="navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Log In
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      <br><br>
+      <br>
+      <br>
+      <div class="row">
+
+        <div class="col-md-3">
+         
+        </div>
+        <div class="col-md-6"><br>
+                <div class="card border-primary mb-3 center" style="max-width: 50rem;">
+                    <div class="card-header">
+                        <div style="text-align: center;">
+                            <h1>Registration</h1>
+                        </div>
+                     
+                    </div>
+                    <div class="card-body">
+                      <form>
+                        <fieldset>
+                      
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Full Name</label>
+                                <input type="text" class="form-control" placeholder="Enter User Name">
+                                <small id="emailHelp" class="form-text text-muted"></small>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted"></small>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputEmail1">Date of Birth</label>
+                                <input data-date-format="dd/mm/yyyy" class="form-control" id="datepicker" readonly="true" placeholder="Select Date">
+                                <small id="emailHelp" class="form-text text-muted"></small>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputEmail1">Phone no</label>
+                                <input type="text" class="form-control"  placeholder="Enter phone no">
+                                <small id="emailHelp" class="form-text text-muted"></small>
+                              </div>
+                              <fieldset class="form-group">
+                                <legend>Role</legend>
+                                <div class="form-check">
+                                  <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                                   Student
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                    Tutor
+                                  </label>
+                                </div>
+                                
+                              </fieldset>
+                              <fieldset class="form-group">
+                                <legend>Gender</legend>
+                                <div class="form-check">
+                                  <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios2" id="optionsRadios1" value="option1" checked="">
+                                   Male
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios2" id="optionsRadios2" value="option2">
+                                    Female
+                                  </label>
+                                </div>
+                                
+                              </fieldset>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">Confirm Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Re-Enter Password">
+                              </div>
+                          
+                          <button type="button" class="btn btn-primary btn-lg btn-block">Sign up</button><br/>
+                          <div class="row">
+                              <div class="col-md-6">
+                                Already have an account?
+                              </div>
+                              <div class="col-md-6" style="text-align: right;">
+                                <a href="login.html">Log In</a>
+                            </div>
+                          </div>
+                          
+                      </form>
+                    </div>
+                  </div>
+          
+        </div>
+        <div class="col-md-3">
+         
+        </div>
+    
+    
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+      <script type="text/javascript">
+          $('#datepicker').datepicker({
+              weekStart: 6,              
+              autoclose: true,
+              todayHighlight: true,
+          });
+      </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

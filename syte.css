@@ -1,0 +1,24 @@
+
+.image{
+  position: relative;
+   height: 600px;
+	width: 100%;
+	background-image:linear-gradient(rgba(16, 17, 17, 0.5),rgba(16, 17, 17, 0.5)), url(bg5.jpg);
+	background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.center {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+#listTick {
+  list-style: none;
+}
+#listTick li::before {
+  content: "✅";
+  display: inline-block;
+  margin-right: 0.2rem;
+}
